@@ -7,7 +7,7 @@ mysql:
     - "3306:3306"
 web:
   container_name: web_server
-  image: rederlo/php7:1.0
+  image: rederlo/php7
   links:
     - mysql:mysql
   volumes:
