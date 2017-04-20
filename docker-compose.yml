@@ -1,0 +1,17 @@
+mysql:
+  container_name: db_server
+  image: mariadb
+  environment:
+    - MYSQL_ALLOW_EMPTY_PASSWORD=true
+  ports:
+    - "3306:3306"
+web:
+  container_name: web_server
+  image: rederlo/php7:1.0
+  links:
+    - mysql:mysql
+  volumes:
+    - ./public:/var/www/html
+    - ./logs:/var/log/apache2
+  ports:
+    - "80:80"

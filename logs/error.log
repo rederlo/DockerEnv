@@ -1,0 +1,8 @@
+[Thu Apr 20 19:59:33.514378 2017] [mpm_prefork:notice] [pid 29] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 20 19:59:33.515198 2017] [core:notice] [pid 29] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 20 20:00:48.287784 2017] [mpm_prefork:notice] [pid 29] AH00169: caught SIGTERM, shutting down
+[Thu Apr 20 20:00:49.527510 2017] [mpm_prefork:notice] [pid 95] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 20 20:00:49.528316 2017] [core:notice] [pid 95] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 20 20:00:59.099024 2017] [mpm_prefork:notice] [pid 95] AH00169: caught SIGTERM, shutting down
+[Thu Apr 20 20:01:00.309872 2017] [mpm_prefork:notice] [pid 144] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 20 20:01:00.310749 2017] [core:notice] [pid 144] AH00094: Command line: '/usr/sbin/apache2'
